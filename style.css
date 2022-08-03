@@ -1,0 +1,349 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* roboto-condensed-regular - latin */
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-condensed-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-condensed-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-condensed-700 - latin */
+  @font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-condensed-v25-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-condensed-v25-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+header{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFEDD2;
+}
+
+body{
+    background: #ffffff;
+}
+
+footer {
+    position: absolute;
+    width: 1920px;
+    height: 593px;
+    left: 0px;
+    top: 11425px;
+    background: #252641;
+}
+h1 {
+    position: absolute;
+    width: 670px;
+    height: 260px;
+    left: 92px;
+    top: 250px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 140%;
+    /* or 101px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FF8A00;
+}
+
+h2 {
+    position: absolute;
+    width: 670px;
+    height: 260px;
+    left: 360px;
+    top: 242px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 140%;
+    /* or 101px */
+
+    display: flex;
+    align-items: center;
+
+    color: #22118F;
+}
+
+h3{
+    position: absolute;
+    width: 670px;
+    height: 260px;
+    left: 92px;
+    top: 330px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 140%;
+    /* or 101px */
+
+    display: flex;
+    align-items: center;
+
+    color: #22118F;
+    }
+
+p1 {
+    position: absolute;
+    width: 897px;
+    height: 134px;
+    left: 92px;
+    top: 614px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 140%;
+    /* or 67px */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+p2{
+    position: absolute;
+    width: 135px;
+    height: 49px;
+    left: 672px;
+    top: 61px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #615D5D;
+}
+
+p3{
+    position: absolute;
+    width: 135px;
+    height: 49px;
+    left: 837px;
+    top: 61px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #615D5D;
+}
+
+p4{
+    position: absolute;
+    width: 135px;
+    height: 49px;
+    left: 1002px;
+    top: 61px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #615D5D;
+}
+
+p5{
+    position: absolute;
+    width: 165px;
+    height: 49px;
+    left: 1167px;
+    top: 61px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #615D5D;
+}
+
+
+
+
+
+
+
+
+
+
+.Logo{
+    position: absolute;
+    width: 180px;
+    height: 102px;
+    left: 92px;
+    top: 35px;
+}
+
+.group1 {
+    position: absolute;
+    width: 804px;
+    height: 554px;
+    left: 1030px;
+    top: 350px;
+}
+
+.group2{
+    position: absolute;
+    width: 443px;
+    height: 90px;
+    left: 484px;
+    top: 842px;  
+    cursor: pointer; 
+}
+
+.Vector{
+    position: absolute;
+    width: 1920px;
+    height: 518px;
+    left: 0px;
+    top: 1000px;
+    color: #ffffff
+
+}
+
+.Company{
+    position: absolute;
+    width: 1337.09px;
+    height: 145.54px;
+    left: 291px;
+    top: 1488px;
+
+}
+
+.group3{
+    position: absolute;
+    width: 1470px;
+    height: 761px;
+    left: 224px;
+    top: 1750px;
+    }
+
+.group4{
+    position: absolute;
+    width: 1580px;
+    height: 8465px;
+    left: 170px;
+    top: 2695px;
+    }
+
+.group5{
+    position: absolute;
+    width: 599px;
+    height: 479px;
+    left: 661px;
+    top: 100px;
+
+}
+
+
+
+
+
+.button {
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    color: #999494;
+  
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    cursor: pointer;
+
+    position: absolute;
+    width: 190px;
+    height: 70px;
+    left: 1362px;
+    top: 45px;
+  }
+
+.button2{
+    background: #FF8A00;
+    border-radius: 50px;
+    color: #FFFFFF;
+    border: none;
+    position: absolute;
+    width: 190px;
+    height: 70px;
+    left: 1615px;
+    top: 45px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.button3{
+    background: #FF8A00;
+    border-radius: 50px;
+    position: absolute;
+    width: 280px;
+    height: 90px;
+    left: 91px;
+    top: 842px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+
+
